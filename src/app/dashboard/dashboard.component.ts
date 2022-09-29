@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SignInComponent } from '../sign-in/sign-in.component';
 
 @Component({
   selector: 'app-dashboard',

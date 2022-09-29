@@ -39,6 +39,8 @@
 input {
     width: 514px;
     height: 49px;
+    padding-left: 10px;
+    font-size: 0.9em;
     border-radius: 10px;
     border: 0.3px solid #000000;
 }
@@ -58,12 +60,13 @@ input:focus{
     text-decoration: none;
 }
 
-button {
-    cursor: pointer;
+.button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
     width: 514px;
     height: 48px;
     margin-top: 10px;
-    border: none;
     font-size: 18px;
     color: white;
     border-radius: 12px;
